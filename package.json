@@ -1,5 +1,5 @@
 {
-  "name": "ndeeman",
+  "name": "agile-results",
   "private": true,
   "scripts": {
     "start": "meteor run"
