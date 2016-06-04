@@ -9,17 +9,22 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/crossbar_tests.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/stream_server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server_tests.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript-compiler.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/file-mixin.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/logger.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/heartbeat.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/utils.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/namespace.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/method_invocation.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/random_stream.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/logger.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/file-mixin.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/typescript-compiler.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/typescript.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/dist/angular2_deps.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/dist/angular2-polyfills.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/Gruntfile.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/angular2_deps.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/server_deps.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.6.7/web.browser/client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.6.7/web.browser/server.js" />
@@ -28,7 +33,6 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/id_map.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/client_convenience.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/livedata_common.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-runtime/0.1.1/web.browser/typescript-helpers.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/namespace.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/stream_client_sockjs.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/livedata_connection.js" />
@@ -41,10 +45,14 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random_tests.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/check/1.2.1/web.browser/match.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/compilers/ng_compiler.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/install-packages.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/compilers/ng_caching_compiler.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/callback-hook/1.0.8/web.browser/hook.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/process.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/compilers/html_compiler.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/stubs.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/utils/file_mixin.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/css.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/buffer.js" />
@@ -134,6 +142,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.5/web.browser/httpcall_client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.5/web.browser/httpcall_server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.5/web.browser/httpcall_common.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-runtime/0.1.2/web.browser/typescript-helpers.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.12/web.browser/logging.js" />
       </sourceFilesUrls>
     </properties>
@@ -145,17 +154,22 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/crossbar_tests.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/stream_server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server_tests.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/typescript-compiler.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/file-mixin.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.7/web.browser/logger.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/heartbeat.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/utils.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/namespace.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/method_invocation.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-common/1.2.5/web.browser/random_stream.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/logger.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/file-mixin.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/typescript-compiler.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-compiler/0.5.10/web.browser/typescript.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/dist/angular2_deps.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/dist/angular2-polyfills.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/Gruntfile.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/angular2_deps.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_angular2-runtime/0.2.3_2/web.browser/server_deps.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.6.7/web.browser/client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.6.7/web.browser/server.js" />
@@ -164,7 +178,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/id_map.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/client_convenience.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/livedata_common.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-runtime/0.1.1/web.browser/typescript-helpers.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/namespace.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/stream_client_sockjs.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.7/web.browser/livedata_connection.js" />
@@ -177,10 +190,14 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random_tests.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/check/1.2.1/web.browser/match.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/compilers/ng_compiler.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/install-packages.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/compilers/ng_caching_compiler.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/callback-hook/1.0.8/web.browser/hook.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/process.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/compilers/html_compiler.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/stubs.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular2-html-templates/0.5.3/web.browser/utils/file_mixin.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/css.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/buffer.js" />
@@ -270,6 +287,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.5/web.browser/httpcall_client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.5/web.browser/httpcall_server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.5/web.browser/httpcall_common.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/barbatus_typescript-runtime/0.1.2/web.browser/typescript-helpers.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.12/web.browser/logging.js" />
     </CLASSES>
     <SOURCES />
