@@ -1,3 +1,3 @@
-import {Mongo} from 'meteor/mongo';
+import {Mongo} from "meteor/mongo";
 
-export let DailyReports = new Mongo.Collection('dailyreports');
+export let DailyReports = new Mongo.Collection("dailyreports");
