@@ -8,9 +8,9 @@ import { bootstrap } from "angular2-meteor-auto-bootstrap";
     selector: "app",
     templateUrl: "client/app.html"
 })
-class NDeeman {
+class AgileResults {
 
 
 }
 
-bootstrap(NDeeman);
+bootstrap(AgileResults);
