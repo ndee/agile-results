@@ -10,7 +10,7 @@ import { Mongo } from "meteor/mongo";
     templateUrl: "client/dailyreports.html"
 })
 class NDeeman {
-    dailyReports: Mongo.Cursor;
+    dailyReports: Mongo.Cursor<Object>;
 
     constructor() {
         this.dailyReports = DailyReports.find();
