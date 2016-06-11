@@ -1,8 +1,9 @@
 <div>
     <h2>Daily log</h2>
+    <a [routerLink]="['/DailyLogAdd']">Add log entry</a>
     <ul>
         <li *ngFor="let entry of logEntries">
-            <p>Day: {{entry.day }}</p>
+            <a [routerLink]="['/DailyLogDetails', {entryId: entry._id}]">Day: {{entry.day}}</a>
             <p>Braindump: {{entry.brainDump}}</p>
             <p>What I enjoyed: {{entry.enjoyed}}</p>
             <button (click)="removeEntry(entry)">Remove</button>
