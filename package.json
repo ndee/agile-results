@@ -2,7 +2,9 @@
   "name": "agile-results",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "run": "meteor run",
+    "run-android": "meteor run android-device --mobile-server 192.168.1.11 --verbose",
+    "reset": "meteor reset"
   },
   "dependencies": {
     "@angular/common": "^2.0.0-rc.1",

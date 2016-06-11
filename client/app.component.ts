@@ -8,6 +8,9 @@ import { DailyLogListComponent } from "../imports/daily-log/client/daily-log-lis
 import { DailyLogDetailsComponent } from "../imports/daily-log/client/daily-log-details/daily-log-details.component";
 import { DailyLogFormComponent } from "../imports/daily-log/client/daily-log-form/daily-log-form.component";
 
+// import {enableProdMode} from "@angular/core";
+// enableProdMode();
+
 
 @Component( {
     selector: "app",
