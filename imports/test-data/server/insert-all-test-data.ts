@@ -1,7 +1,9 @@
 import { DailyLogCollection } from "../../../imports/daily-log/collections/daily-log.collection";
 import { DailyLogTestEntries } from "./daily-log-data.constant";
 
-export function insertAllTestData() {
+Meteor.startup( insertAllTestData );
+
+function insertAllTestData() {
     insertData( DailyLogCollection, DailyLogTestEntries );
 }
 
@@ -13,4 +15,6 @@ function insertData( collection: Mongo.Collection<Object>, list: Array<Object> )
         }
     }
 }
+
+
 
