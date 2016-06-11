@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import "zone.js/dist/zone";
 import { Component } from "@angular/core";
-import { DailyLogCollection } from "../../../collections/daily-log.collection";
+import { DailyLogCollection } from "../../collections/daily-log.collection";
 import { Mongo } from "meteor/mongo";
 import { RouterLink } from "@angular/router-deprecated";
 import { LoginButtons } from "angular2-meteor-accounts-ui";
@@ -9,7 +9,7 @@ import { LoginButtons } from "angular2-meteor-accounts-ui";
 
 @Component( {
     selector: "daily-log-list",
-    templateUrl: "/client/imports/daily-log-list/daily-log-list.component.html",
+    templateUrl: "/imports/daily-log/client/daily-log-list/daily-log-list.component.html",
     directives: [ RouterLink, LoginButtons ]
 } )
 export class DailyLogListComponent {

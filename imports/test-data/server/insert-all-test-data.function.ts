@@ -1,4 +1,4 @@
-import { DailyLogCollection } from "../../../collections/daily-log.collection";
+import { DailyLogCollection } from "../../../imports/daily-log/collections/daily-log.collection";
 import { DailyLogTestEntries } from "./daily-log-data.constant";
 
 export function insertAllTestData() {

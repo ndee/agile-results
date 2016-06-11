@@ -1,11 +1,11 @@
 import { Component } from "@angular/core";
 import { FormBuilder, ControlGroup, Validators, Control } from "@angular/common";
 import { Router } from "@angular/router-deprecated";
-import { DailyLogCollection } from "../../../collections/daily-log.collection";
+import { DailyLogCollection } from "../../collections/daily-log.collection";
 
 @Component( {
     selector: "daily-log-form",
-    templateUrl: "/client/imports/daily-log-form/daily-log-form.component.html"
+    templateUrl: "/imports/daily-log/client/daily-log-form/daily-log-form.component.html"
 } )
 export class DailyLogFormComponent {
     logEntryForm: ControlGroup;

@@ -14,7 +14,7 @@
     "client/**/*.ts",
     "server/**/*.ts",
     "typings/**/*.d.ts",
-    "interfaces/**/*.d.ts"
+    "imports/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"
