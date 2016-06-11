@@ -9,10 +9,13 @@ import { Mongo } from "meteor/mongo";
     templateUrl: "/client/imports/daily-report-list/daily-report-list.component.html"
 } )
 export class DailyReportListComponent {
-    dailyReports: Mongo.Cursor<Object>;
+    logEntries: Mongo.Cursor<Object>;
 
     constructor() {
-        this.dailyReports = DailyReportsCollection.find();
-        console.log( this.dailyReports.fetch() );
+        this.logEntries = DailyReportsCollection.find();
+    }
+
+    removeEntry( entry ) {
+        DailyReportsCollection.remove( entry._id );
     }
 }

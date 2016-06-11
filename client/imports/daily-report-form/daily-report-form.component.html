@@ -1,0 +1,20 @@
+<h2>Add daily log entry</h2>
+<form [ngFormModel]="dailyReportForm" #theForm="ngForm" (submit)="addLogEntry(theForm.value)">
+
+    <label>Day</label>
+    <input type="date" ngControl="day">
+
+    <label>Dump of my brain</label>
+    <input type="text" ngControl="brainDump">
+
+    <label>What have I enjoyed today?</label>
+    <textarea ngControl="enjoyed"></textarea>
+
+    <button>Add</button>
+
+    <h3>Debug</h3>
+    <p>IsValid: {{theForm.valid}}</p>
+    <p>Form - day: {{theForm.value.day}}</p>
+    <p>Form - brainDump: {{theForm.value.brainDump}}</p>
+    <p>Form - enjoyed: {{theForm.value.enjoyed}}</p>
+</form>
