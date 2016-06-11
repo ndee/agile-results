@@ -1,5 +1,5 @@
-import { DailyReportsCollection } from "../../../collections/dailyreports";
-import { DailyReports } from "./daily-reports";
+import { DailyReportsCollection } from "../../../collections/dailyreports.collection";
+import { DailyReports } from "./daily-reports-data.constant";
 
 export function insertAllTestData() {
     insertData( DailyReportsCollection, DailyReports );
