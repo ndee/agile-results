@@ -4,6 +4,7 @@
   "scripts": {
     "run": "meteor run",
     "run-android": "meteor run android-device --mobile-server 192.168.1.11 --verbose",
+    "update": "meteor update",
     "reset": "meteor reset"
   },
   "dependencies": {
