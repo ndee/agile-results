@@ -1,8 +1,8 @@
-import { DailyReportsCollection } from "../../../collections/dailyreports.collection";
-import { DailyReports } from "./daily-reports-data.constant";
+import { DailyLogCollection } from "../../../collections/daily-log.collection";
+import { DailyLogTestEntries } from "./daily-log-data.constant";
 
 export function insertAllTestData() {
-    insertData( DailyReportsCollection, DailyReports );
+    insertData( DailyLogCollection, DailyLogTestEntries );
 }
 
 function insertData( collection: Mongo.Collection<Object>, list: Array<Object> ) {

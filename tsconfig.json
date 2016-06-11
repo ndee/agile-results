@@ -13,7 +13,8 @@
   "filesGlob": [
     "client/**/*.ts",
     "server/**/*.ts",
-    "typings/**/*.d.ts"
+    "typings/**/*.d.ts",
+    "interfaces/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"

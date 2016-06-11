@@ -1,5 +1,5 @@
 <h2>Add daily log entry</h2>
-<form [ngFormModel]="dailyReportForm" #theForm="ngForm" (submit)="addLogEntry(theForm.value)">
+<form [ngFormModel]="logEntryForm" #theForm="ngForm" (submit)="addLogEntry(theForm.value)">
 
     <label>Day</label>
     <input type="date" ngControl="day">

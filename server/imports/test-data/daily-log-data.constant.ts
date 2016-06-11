@@ -1,4 +1,4 @@
-export const DailyReports =  [
+export const DailyLogTestEntries =  [
     {
         date: "Someday",
         brainDump: "Hacking angular 2 with meteor for my awesome agile results app. I'm loving it",
