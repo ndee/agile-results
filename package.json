@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "run": "meteor run",
-    "run-android": "meteor run android-device --mobile-server 192.168.1.11 --verbose",
+    "run-android-device": "meteor run android-device --mobile-server 192.168.1.11 --verbose",
+    "run-android-emulator": "meteor run android --verbose",
     "update": "meteor update",
     "reset": "meteor reset"
   },

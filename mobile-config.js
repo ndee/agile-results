@@ -1,5 +1,5 @@
 App.info({
-    id: 'com.andimatter.agile-results',
+    id: 'com.andimatter.agile_results',
     name: 'Agile Results',
     description: 'Supports you getting results the agile way',
     author: 'Andreas Henrich',
