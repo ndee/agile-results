@@ -1,0 +1,40 @@
+@startuml
+title Use Case: Plan week
+(*)  --> "Check free time
+ in calendar"
+note right: Feature: Open calendar app or web service
+
+-down> "<b>Check lists
+ for urgent items</b>
+
+<u>Select from:</u>
+  Yesterday's's goals
+  Week goals
+ Project tasks
+ Periodical tasks
+ Inbox
+ Brain" as identify
+-right> "<b>Create goal</b>
+Visualize outcome
+Reasoning"
+-left> identify
+
+-down> [All lists checked] "<b>Prioritize goals</b>
+
+<u>Define:</u>
+3 MUST
+3 COULD
+3 SHOULD"
+
+-down> "<b>Plan week</b>
+Use power hours
+Batch weakening stuff in to the early hours
+Plan breaks & buffers
+Select a metaphorical head" as plan
+-right> "<b>Reserve time for important stuff</b>
+Appointments
+Blocker"
+-left> plan
+ --> (*)
+
+@enduml

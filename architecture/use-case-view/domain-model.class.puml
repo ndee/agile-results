@@ -1,0 +1,74 @@
+@startuml
+title Agile Results: Domain Model
+class "Hot Spot" as HotSpot {
+    boundary: min / max hours per week
+    category: life / work
+}
+HotSpot o--  "0..3" Goal
+
+class Year {
+}
+Year o-- "0..3" Goal
+
+class Month {
+}
+Month o-- "0..3" Goal
+
+class Week {
+}
+Week o- "0..3" Goal
+
+class  Day {
+}
+Day o- "0..3" Goal
+
+
+
+class Goal {
+    outcome: What does it "look" like?
+    reasoning: For whom and what for?
+    flag: Done / Pending
+}
+Goal *-- Priority
+(Goal, Week) .. WeeklyReflection
+(Goal, Day) .. DailyReflection
+Goal o- Goal
+
+enum Priority {
+    MUST,
+    SHOULD
+    COULD
+}
+
+
+class "Weekly Reflection (of approach)" as WeeklyReflection {
+    Going well: What are three things going well?
+    Improve: What are three things to improve?
+    Change: Identify what you’ll change next week
+}
+WeeklyReflection --> ScheduledActionItem: "to change next week"
+
+class "Daily Reflection" as DailyReflection  {
+    Brainump
+    Fun: What I enjoyed
+    Learn: What I learned
+    Improved: What I improved
+    Good deed: What I did for s.o. else
+}
+DailyReflection --> ScheduledActionItem: "to change tomorrow"
+
+abstract class ActionItem {
+    todo: What needs to be done?
+}
+
+class ScheduledActionItem {
+    time
+}
+ScheduledActionItem -|> ActionItem
+
+
+class Inbox {
+}
+Inbox --> "*" ActionItem
+
+@enduml

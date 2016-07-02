@@ -1,0 +1,18 @@
+@startuml
+User ----> (Define hotspots)
+User ---> (Plan week)
+User ---> (Reflect week)
+User --> (Plan day)
+User --> (Reflect day)
+User -> (Get next best thing to do)
+
+note left of (User)
+This is me
+end note
+
+
+
+
+
+
+@enduml
