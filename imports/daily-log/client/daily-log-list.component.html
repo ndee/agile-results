@@ -1,0 +1,10 @@
+<a>Add new entry</a>
+<ul>
+    <li *ngFor="let entry of logEntries">
+        <a (click)="selectEntry(entry)">Day: {{entry.day}}</a>
+        <button (click)="removeEntry(entry)">Remove</button>
+    </li>
+</ul>
+
+
+

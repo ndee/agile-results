@@ -1,20 +1,19 @@
 import "reflect-metadata";
 import "zone.js/dist/zone";
-import { Component } from "@angular/core";
+import { Component, Output, EventEmitter } from "@angular/core";
 import { MeteorComponent } from "angular2-meteor";
-import { DailyLogCollection } from "../../collections/daily-log.collection";
+import { DailyLogCollection } from "../collections/daily-log.collection";
 import { Mongo } from "meteor/mongo";
-import { RouterLink } from "@angular/router-deprecated";
-import { LoginButtons } from "angular2-meteor-accounts-ui";
 
 
 @Component( {
     selector: "daily-log-list",
-    templateUrl: "/imports/daily-log/client/daily-log-list/daily-log-list.component.html",
-    directives: [ RouterLink, LoginButtons ]
+    templateUrl: "/imports/daily-log/client/daily-log-list.component.html"
 } )
 export class DailyLogListComponent extends MeteorComponent {
     logEntries: Mongo.Cursor<DailyLogEntry>;
+
+    @Output() entrySelected = new EventEmitter<DailyLogEntry>();
 
     constructor() {
         super();
@@ -22,6 +21,10 @@ export class DailyLogListComponent extends MeteorComponent {
             this.logEntries = DailyLogCollection.find();
         }, true );
 
+    }
+
+    selectEntry( entry:DailyLogEntry ) {
+        this.entrySelected.emit( entry );
     }
 
     removeEntry( entry ) {
